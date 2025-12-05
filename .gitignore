@@ -1,0 +1,20 @@
+# Ignore raw and processed data (sensitive government data)
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.hwp
+*.csv
+
+# Allow sample data
+!data/sample/
+
+# Ignore system files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore IDE settings
+.vscode/
+.idea/
